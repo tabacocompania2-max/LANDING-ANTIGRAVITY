@@ -20,6 +20,10 @@
   t.src=v;s=b.getElementsByTagName(e)[0];
   s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
+  
+  // Desactivar rastreo automático al hacer clic en menú/CTA (hash change)
+  fbq.disablePushState = true; 
+  
   fbq('init', '882864731210647');
   fbq('track', 'PageView');
   </script>
